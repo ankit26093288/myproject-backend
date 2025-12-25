@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const PG = require("../models/PG");
+const PG = require("../models/Pg");
 
 // Fetch PGs based on query
 router.get("/search", async (req, res) => {
